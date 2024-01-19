@@ -150,7 +150,6 @@ class GameLogic:
         if 1 <= num_dice <= 6:
             # Generate random numbers based on the dice value and making it a tuple
             result = tuple(random.randint(1, 6) for _ in range(num_dice))
-            print("*** ", result," ***")
             return result
 
 
